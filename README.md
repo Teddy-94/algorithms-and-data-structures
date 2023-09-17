@@ -6,7 +6,7 @@ The main resource I use is the Introduction to Algorithms 3rd edition.
 These websites have also been very helpful
 
 * [Programbiz.com/dsa](https://www.programiz.com/dsa)
-* [Wikipedia](https://en.wikipedia.org/)
+* [Wikipedia](https://en.wikipedia.org/wiki/Algorithm)
 * [w3schools.com](https://www.w3schools.com/)
 
 ## Structure
