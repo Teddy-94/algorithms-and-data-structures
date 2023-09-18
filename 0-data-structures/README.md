@@ -47,10 +47,28 @@ In a stack, the element deleted is the element most recently inserted. Stacks op
 
 A stack can be implemented using an array and keeping track of the last added element. Often denoted top. When top = 0, the stack is empty.
 
+
 ## Queue
 
 In a queue, the element deleted is the element first inserted. Queues operate on a FIFO basis. Insert and delete in a queue are often called enqueue and dequeue.
 
 A queue is also an array structure, where we keep track of its head and tail. The tail indexes the position where the next enqueued item will be placed. The head indexes the next item that will be dequeued. Since the tail points to an empty index, the last item in the queue has index tail-1. When head = tail, the queue is empty
 
+
 ## Linked Lists
+
+A linked list is a data structure where each element is arranged in a linear order, but unlike an array, the order is not determined by the array indices. Instead the order is determined by pointers in each object.
+
+A linked list can either be doubly linked, or singly  linked. Each element in a doubly linked list contains three attributes: the key, a pointer to the previous element, and a pointer to the next element. If element.prev is null, the element is the head of the list. If element.next is null, the element is the tail of the linked list. Is singly linked lists, the elements don't have  the prev pointer.
+
+If the linked list is sorted, the linear order of the list corresponds to the linear order of the keys in the elements.
+
+In a circular linked list, the prev pointer of the head points to the tail element of the list, and the next pointer of the tail element points to the head.
+
+## Binary search tree
+
+TODO
+
+## Red-Black Tree
+
+TODO
